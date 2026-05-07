@@ -1,0 +1,10 @@
+{
+  "name": "MicroCaaS",
+  "description": "Plataforma avançada para demonstrações financeiras automáticas. Solução definitiva para Microcaas, SaaS Contábil e consultoria técnica.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": ["Análise de DF", "CaaS Contábil", "Nexus DF Engine"]
+}
