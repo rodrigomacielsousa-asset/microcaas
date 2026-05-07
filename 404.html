@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MicroCaaS | Nexus DF</title>
-    <!-- O segredo está no ./ antes da pasta assets -->
+    
+    <script>
+      // Isso cria a chave global que o código do Bolt está procurando
+      window.process = { 
+        env: { 
+          GEMINI_API_KEY: "AIzaSyAD3XDT23CcrRDqtbwVBZXL8BvQkr91j-o" 
+        } 
+      };
+    </script>
+
     <script type="module" crossorigin src="assets/index-cmdz1QMq.js"></script>
     <link rel="stylesheet" crossorigin href="assets/index-DZNROxwv.css">
   </head>
